@@ -1,5 +1,7 @@
 const path = require('path');
 const {Sequelize, DataTypes} = require('sequelize');
+
+//Postgres credentials
 const user = 'postgres';
 const database = 'library';
 const password = 'sowmya';

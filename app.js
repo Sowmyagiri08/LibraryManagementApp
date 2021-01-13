@@ -11,7 +11,6 @@ const server = new Hapi.Server({
 const main = async () => {
     await configureRoutes(server);
     await server.start();
-  
     return server;
   }
   

@@ -1,4 +1,3 @@
-
 const { User,Book,Borrows } = require('./model')
 const Boom = require('boom');
 
@@ -97,7 +96,7 @@ exports.configureRoutes = (server) => {
       return borrow.save();
     }
   },
-  //Issue book
+  //Return book
   {
     method: ['PUT','PATCH'],
     path: '/books/return/{id}',
